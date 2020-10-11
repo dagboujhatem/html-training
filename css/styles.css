@@ -1,4 +1,27 @@
-.c1 {
-	color: red;
+body{
+	/*background-color: #222f3e;
+	opacity: 0.5;
+	color: #c8d6e5;*/
+	background-image: url('../images/screen.jpg');
+	background-repeat: no-repeat;
+}
+
+/* class css here */
+.description-text {
 	font-size: 25px;
+}
+
+.common-text{
+	/*color: red;*/
+}
+
+
+/* selector based on tag name*/
+h1 {
+	/*color:blue;*/
+}
+
+/* selector based on id  */
+#team-text {
+	/*color: green;*/
 }
