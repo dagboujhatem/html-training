@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../fonts/Helvetica.eot');
+    src: url('../fonts/Helvetica.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Helvetica.woff2') format('woff2'),
+        url('../fonts/Helvetica.woff') format('woff'),
+        url('../fonts/Helvetica.ttf') format('truetype'),
+        url('../fonts/Helvetica.svg#Helvetica') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.visiter {
+	border: 5px groove #ff0000;
+	/* padding (marges internes) */	
+	/*padding-top: 10px;
+	padding-left: 8px;
+	padding-right: 9px;
+	padding-bottom: 20px;*/
+
+	/*padding: 10px 9px 20px 8px;*/
+	padding: 10px 5px;
+
+	/*margin-top: 50px;
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-bottom: 50px;
+*/
+
+	/*margin: 50px 60px 50px 60px;*/
+	margin: 50px 60px;
+}
+
+p {
+	color: blue;
+	margin-top: 50px;
+	text-align: justify;
+	/*direction: ltr;*/
+	vertical-align: middle;
+	height: 500px;
+	text-decoration: underline;
+	text-transform: capitalize;
+
+	/*text-indent: 50px;
+	text-shadow: 1px 1px 2px red;*/
+	font-family: "Helvetica", Times, serif;
+}
